@@ -311,12 +311,6 @@ Le garbage collector garanti qu'il y a suffisamment de mémoire pour  exécuter
 <br>
 
 ## Question 21: Design pattern 01
-
-```
-Java 00:20 / 00:50 40 / 40 pts
-```
-## Question
-
 ```
 public class A {
     private A() {}
@@ -359,6 +353,7 @@ class Dog extends Animal {
         this.name = name;
     }
 }
+
 class Cat extends Animal {
     /**
     * Creates a new cat with the given name.
@@ -367,6 +362,7 @@ class Cat extends Animal {
         this.name = name;
     }
 }
+
 class Application {
     /**
     * @return the name of the given animal
