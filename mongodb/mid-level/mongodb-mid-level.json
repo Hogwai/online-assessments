@@ -1,0 +1,18 @@
+{
+  "aggregate": "Collection_5MD3S",
+  "pipeline": [
+    {
+      "$match": {
+        "Age": 30
+      }
+    },
+    {
+      "$addFields": {
+        "canRent": true
+      }
+    }
+  ],
+  "cursor":{
+    "batchSize": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "aggregate": "Collection_OFCIB",
+  "pipeline": [
+    {
+      "$match": {
+        "Age": {
+          "$gt": 25
+        }
+      }
+    },
+    {
+      "$sort": {
+        "Age": 1
+      }
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "FirstName": 1,
+        "LastName": 1,
+        "Age": 1
+      }
+    }
+  ], 
+  "cursor": {
+    "batchSize": 0
+  }
+}
