@@ -1,6 +1,5 @@
 # online-assessments
 
+Various online coding challenges in multiple programming languages.
 
-Various uninspiring online coding challenges...
-
-If you found them useful,  please consider leaving a star !
+If you found them useful,  please consider leaving a star ⭐ !
