@@ -182,6 +182,7 @@ interface Service {
     void execute() throws Exception;
     void setConnection(Connection c);
 }
+
 interface Connection {
     void commit();
     void rollback();
@@ -193,6 +194,11 @@ interface Connection {
 
 ## Question 14: Enum
 En considérant le code ci-dessus, quelles affirmations sont correctes?
+```
+enum Planet {
+    MERCURY, VENUS, EARTH
+}
+```
 
 **Réponse**
 
