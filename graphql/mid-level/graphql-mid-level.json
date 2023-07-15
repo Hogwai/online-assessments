@@ -1,0 +1,8 @@
+mutation CreateReviewForBook {
+    createBookReview(ISBN: "0743273567", author: "Robert B.", content:"Great book!") {
+        date
+        author
+        content
+        status
+    }
+}

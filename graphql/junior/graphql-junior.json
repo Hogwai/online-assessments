@@ -1,0 +1,15 @@
+query {
+    book(ISBN: "0743273567") {
+        title
+        author
+        published
+        publisher
+        pages
+        genres
+        reviews(limit: 1) {
+        author
+        date
+        content
+        }
+    }
+}
