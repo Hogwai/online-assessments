@@ -1,0 +1,21 @@
+.assembly-line {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stage-column {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.stage-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+}

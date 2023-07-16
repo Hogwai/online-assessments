@@ -1,0 +1,25 @@
+<div class="assembly-line">
+    <input
+        type="text"
+        [(ngModel)]="newItemText"
+        (keydown.enter)="addItem()"
+        data-testid="assembly-add-item"
+    />
+    <div class="item-list">
+        <div class="stage-column" *ngFor="let stage of internalStages; let index = index" [attr.data-testid]="'assembly-stage'">
+        <div class="stage-name">{{ stage.name }}
+            <div class="items">
+            <button
+                *ngFor="let item of stage.items; let itemIndex = index"
+                [attr.data-testid]="'assembly-item'"
+                (click)="moveItemForward(stage, itemIndex)"
+                (contextmenu)="$event.preventDefault(); moveItemBackward(stage, itemIndex)"
+            >
+                {{ item }}
+            </button>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+  
