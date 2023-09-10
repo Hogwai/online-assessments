@@ -23,8 +23,3 @@ function calculateSimilarity(str1, str2) {
 
   return count;
 }
-
-// Example usage:
-const word = "ababaa";
-const sumOfSimilarities = stringSuffix(word);
-console.log(sumOfSimilarities); // Output: 11
