@@ -1,15 +1,15 @@
-# CSS: Nested Three-Panel Layout
+# CSS: Box in Corner 
 
 ## Instructions
 
-Your task is to create a simple three-panel layout that responds to two screen widths. Here is the layout you'll be creating:
+In this HTML and CSS challenge, your task is to reproduce a nested layout.
 
-Three boxes (divs), red on top, blue in the middle and green on the bottom, all three equal size in the narrow layout, then in the wide layout, green is twice the size of the other boxes and placed to the right of the red and blue boxes which remain stacked
+Specifically, position a box of red text nested in the bottom-right corner of a text-filled container. The text in the larger container should flow around the box. We'll use the size (in pixels) of 100x100 for the small box and 250x250 for the large box.
 
-Please copy the layout as precisely as you can using a breakpoint at 600px. You can use any HTML elements you need in index.html and style them in src/styles.css.
+Basic HTML is provided to work with in index.html in your workspace and you can use src/styles.css to do your styling.
+
+You have the freedom to change the HTML markup, CSS, classes as you wish. No CSS preprocessors are available.
 
 Your code can use modern browser technologies available and need not support legacy browsers.
 
-Your solution will be validated by a Puppeteer testing suite in test/solution.js. This suite will access 3 elements by their data-testid attribute: red, green and blue respective to the 3 boxes shown in the specification screen capture. The suite will make sure these elements exist, check their text contents, then assert their relative positions.
-
-When you finish, please leave a brief description of your approach to the problem in the challenge's candidate notes field (called "Your Notes" in the interface).
+Your solution will be validated by a Puppeteer testing suite in test/solution.js. This suite will access two elements by their data-testid attribute: wrapper, and box respective to the two boxes shown in the specification reference image. The suite will make sure these elements exist, check their text contents, then assert their relative positions.

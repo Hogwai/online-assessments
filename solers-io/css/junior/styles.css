@@ -1,69 +1,25 @@
-body, html {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-auto-flow: column;
-      grid-template-areas: 
-        "A C"
-        "B C";
-  }
-    
-  .red {
-     grid-area: A;
-    background-color: red;
-    height: 110px;
-  }
-  
-  .blue {
-    grid-area: B;
-    background-color: blue;
-    height: 110px;
-  }
-  
-  .green {
-    grid-area: C;
-    background-color: green;
-  }
-  
-  .box {
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  
-  
-  @media (max-width: 600px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .box {
-      height: 110px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 20px;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-  
-    .red {
-      background-color: red;
-    }
-  
-    .blue {
-      background-color: blue;
-    }
-  
-    .green {
-      background-color: green;
-    }
-  }
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.box {
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
