@@ -20,7 +20,7 @@ You are working with the following table, called: ratings
  Which querie(s) return the number of rows with non-null rating ? (7 rows in that example).
 
 
-**Réponse**
+**Answer**
 - [x] `SELECT COUNT(rating) FROM ratings`
 - [ ] `SELECT COUNT(*) FROM ratings`
 - [x] `SELEC SUM (CASE WHEN rating IS NULL THEN 0 ELSE 1 END) FROM ratings`
@@ -45,7 +45,7 @@ LEFT JOIN order_product op ON p.product_id = op.product_id
 Why does the above query generate an error? (There may be more than one reason.)
 
 
-**Réponse**
+**Answer**
 - [x] The `END` keyword is missing in the `CASE WHEN` syntax
 - [x] A `GROUP BY` clause is missing
 - [ ] A `WHERE` clause is missing
@@ -63,7 +63,7 @@ FROM product
 WHERE product_id IN (2,3,6)
 ```
 
-**Réponse**
+**Answer**
 - [x] 
 `
 SELECT * FROM product WHERE product_id = 2 OR product_id = 3 OR product_id = 6
@@ -107,7 +107,7 @@ The field "NAME" contains the name of the product category, not the name of the 
 
 Which query should you write to count the number of products per category?
 
-**Réponse**
+**Answer**
 - [x] ```SELECT
 name AS product_category, COUNT(product_id)
 FROM product
@@ -147,7 +147,7 @@ Example:
 | Kuwait |
 | Somalia |
 
-**Réponse**
+**Answer**
 ```
 SELECT country
 FROM alcohol_consumption
@@ -172,7 +172,7 @@ Example of output:
 | Wilwood 260-11179 | Automotive |
 | HC-SR04 | null |
 
-**Réponse**
+**Answer**
 ```
 SELECT p.name, pc.name
 FROM product p LEFT JOIN product_category pc
@@ -183,7 +183,7 @@ ON p.product_category_id = pc.PRODUCT_CATEGORY_ID
 ## Question 7: Multiple inheritance
 A C# class can have more than one parent class.
 
-**Réponse**
+**Answer**
 - [ ] True
 - [x] False
 
@@ -192,7 +192,7 @@ A C# class can have more than one parent class.
 ## Question 8: Size of a string
 Which property returns the number of characters (= number of Char objects) in a string?
 
-**Réponse**
+**Answer**
 - [ ] Size
 - [x] Length
 - [ ] Measure
@@ -205,7 +205,7 @@ Which property returns the number of characters (= number of Char objects) in a 
 ## Question 9: Unused Out Parameter (C# 7)
 What is the best way of declaring an out parameter that is never going to be used?
 
-**Réponse**
+**Answer**
 - [ ] ```var isParsed = int.TryParse("1", _) ;```
 - [x] ```var isParsed = int.TryParse("1", out _ );```
 - [ ] ```var isParsed = int.TryParse("1", _ out);```
@@ -219,7 +219,7 @@ What is the best way of declaring an out parameter that is never going to be use
 
 This program displays...
 
-**Réponse**
+**Answer**
 - [ ] null
 - [ ] 0
 - [x] 5
@@ -231,7 +231,7 @@ This program displays...
 How can an out parameter be used in C#?
 Multiple answers expected.
 
-**Réponse**
+**Answer**
 - [x] `int.TryParse(str, out int num)`
 - [x] `int.TryParse(str, out num)`
 - [ ] `int.TryParse(str, int num out)`
@@ -252,7 +252,7 @@ if (number == null)
 ```
 
 
-**Réponse**
+**Answer**
 - [ ] 1:
 ```
     int? number = null;
@@ -283,7 +283,7 @@ if (number == null)
 ## Question 13: Last item from a list (System.Index based indexitem retrieval)
 Select the preferred way of returning the last item from a list?
 
-**Réponse**
+**Answer**
 - [ ] `var result = list[^0]`
 - [x] `var result = list[^1]`
 - [ ] `var result = list[-0]`
@@ -299,7 +299,7 @@ The array numbers always contains at least one number.
 
 Implement `Algorithm.FindLargest(int[] numbers)`.
 
-**Réponse**
+**Answer**
 ```
 using System;
 public class Algorithm
@@ -329,7 +329,7 @@ For example:
 `A.Test(2, 3)` returns false
 `A.Test(-3, 4)` returns true
 
-**Réponse**
+**Answer**
 ```
 using System;
 
@@ -366,7 +366,7 @@ j
 Write the body of the `Reshape(n, str)` method.
 Note: Do not add a trailing `\n` character.
 
-**Réponse**
+**Answer**
 ```
 // C# code below
 using System;
