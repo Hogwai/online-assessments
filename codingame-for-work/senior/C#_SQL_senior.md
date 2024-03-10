@@ -30,7 +30,7 @@ You are working with the following table, called: ratings
 
 ## Question 2: "CASE WHEN" and "GROUP BY" errors
 Les abstractions ne doivent pas dépendre de détails. Les détails doivent dépendre d'abstractions
-![img](codingame-for-work/senior/img/CASE_WHEN_and_GROUP_BY_errors.jpg)
+![img](img/CASE_WHEN_and_GROUP_BY_errors.jpg)
 
 You want to compute the number of orders for two product price ranges:
 
@@ -153,7 +153,7 @@ GROUP BY product_id```
 <br>
 
 ## Question 5: Simple WHERE condition (equality)
-![img](codingame-for-work/senior/img/simple_where_condition.jpg)
+![img](img/simple_where_condition.jpg)
 
 Write a query that returns all countries whose annual average alcohol consumption per person is 0 liters
 (i.e. total_consumption is 0). 
@@ -180,7 +180,7 @@ ORDER BY country ASC
 <br>
 
 ## Question 6: SQL - OUTER JOIN
-![img](codingame-for-work/senior/img/SQL_OUTER_JOIN.jpg)
+![img](img/SQL_OUTER_JOIN.jpg)
 
 Modify the query to list all the products and their associated categories if they have one. Return no value
 (null will be displayed by default) as the category otherwise.
@@ -237,7 +237,7 @@ What is the best way of declaring an out parameter that is never going to be use
 <br>
 
 ## Question 10: Structures
-![img](codingame-for-work/senior/img/structure.jpg)
+![img](img/structure.jpg)
 
 This program displays...
 
