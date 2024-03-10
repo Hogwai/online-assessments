@@ -29,7 +29,7 @@ You are working with the following table, called: ratings
 <br>
 
 ## Question 2: "CASE WHEN" and "GROUP BY" errors
-Les abstractions ne doivent pas dépendre de détails. Les détails doivent dépendre d'abstractions
+You are working with the following tables:
 ![img](img/CASE_WHEN_and_GROUP_BY_errors.jpg)
 
 You want to compute the number of orders for two product price ranges:
