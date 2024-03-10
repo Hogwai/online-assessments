@@ -65,43 +65,25 @@ WHERE product_id IN (2,3,6)
 
 **Réponse**
 - [x] 
-```
-SELECT *
-FROM product
-WHERE
-product_id = 2
-OR product_id = 3
-OR product_id = 6
-```
+`
+SELECT * FROM product WHERE product_id = 2 OR product_id = 3 OR product_id = 6
+`
 - [ ] 
-```
-SELECT *
-FROM product
-WHERE product_id = (2,3,6)
-```
+`
+SELECT * FROM product WHERE product_id = (2,3,6)
+`
 - [ ] 
-```
-SELECT *
-FROM product
-WHERE
-product_id = 2
-AND product_id = 3
-AND product_id = 6
-```
+`
+SELECT * FROM product WHERE product_id = 2 AND product_id = 3 AND product_id = 6
+`
 - [ ] 
-```
-SELECT *
-FROM product
-WHERE product_id BETWEEN (2,3,6)
-```
+`
+SELECT * FROM product WHERE product_id BETWEEN (2,3,6)
+`
 - [x] 
-```
-SELECT *
-FROM product
-WHERE
-product_id BETWEEN 2 AND 6
-AND product_id NOT IN (4, 5)
-```
+`
+SELECT * FROM product WHERE product_id BETWEEN 2 AND 6 AND product_id NOT IN (4, 5)
+`
 
 <br>
 
@@ -127,22 +109,18 @@ Which query should you write to count the number of products per category?
 
 **Réponse**
 - [x] ```SELECT
-name AS product_category
-,COUNT(product_id )
+name AS product_category, COUNT(product_id)
 FROM product
 GROUP BY name```
 - [ ] ```SELECT
-name AS product_category
-,COUNT(product_id)
+name AS product_category, COUNT(product_id)
 FROM product```
 - [ ] ```SELECT
-name AS product_category
-,COUNT(product_id)
+name AS product_category, COUNT(product_id)
 FROM product
 GROUP BY product_category```
 - [ ] ```SELECT
-name AS product_category
-,COUNT(product_id)
+name AS product_category, COUNT(product_id)
 FROM product
 GROUP BY name AS product_category```
 - [ ] ```SELECT
@@ -275,25 +253,25 @@ if (number == null)
 
 
 **Réponse**
-- [ ] 
+- [ ] 1:
 ```
     int? number = null;
     ...
     if (number == null) number = 1;
 ```
-- [ ] 
+- [ ] 2:
 ```
     int? number = null;
     ...
     number = number == null ? number : 1;
 ```
-- [ ] 
+- [ ] 3:
 ```
     int? number = null;
     ...
     number = number ?? 1;
 ```
-- [x] 
+- [x] 4:
 ```
     int? number = null;
     ...
