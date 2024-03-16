@@ -179,6 +179,7 @@ FROM product p LEFT JOIN product_category pc
 ON p.product_category_id = pc.PRODUCT_CATEGORY_ID
 ```
 
+<br>
 
 ## Question 7: Multiple inheritance
 A C# class can have more than one parent class.
