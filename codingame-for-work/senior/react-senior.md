@@ -306,7 +306,7 @@ Quel objet utiliseriez-vous pour passer des données à travers tout l'arbre des
 ## Question 14: Lifecycle: componentDidUpdate
 Quelle fonction du lifecycle est appelée après la mise à jour d'un composent React ?
 
-**Réponses correctes **
+**Réponses correctes**
 - componentDidUpdate
 - componentDidUpdate()
 - componentDidUpdate(prevProps, prevState)
