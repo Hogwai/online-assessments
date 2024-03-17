@@ -316,6 +316,7 @@ Corrigez la méthode `sumRange`.
 
 Note : le paramètre `ints` n'est jamais null.
 
+**Réponse**
 ```
 import java.util.*;
 import java.io.*;
@@ -334,14 +335,8 @@ class Solution {
         return sum;
     }
 }
-
 ```
 
-Si vous connaissez le patron de conception (design pattern) utilisé dans ce bout de code, saisissez son nom dans le champ texte (1 mot seulement).
-
-**Réponse**
-
-- Singleton
 
 <br>
 
@@ -515,8 +510,8 @@ Quelle directive built-in Angular peut-on utiliser pour remplacer `????` à la l
 ![img](img/directive_ngClass.jpg)
 
 **Réponses correctes**
-- [ ] `[ngClass]`
-- [ ] `[ ngClass ]`
+- `[ngClass]`
+- `[ ngClass ]`
 
 <br>
 
@@ -538,7 +533,7 @@ si `output` est vrai, alors on affiche la valeur de `yesAnswer`, sinon on affich
 Notes : 
 Un bloc de "Preview" est disponible pour vous permettre de débugguer votre code. \
 Il affiche votre composant ci-dessous. Vous pouvez l'ouvrir et le modifier à votre guise. \
-Ce bloc de "Preview" n'est pas pris en compte dans le calcul du score de votre code. \
+Ce bloc de "Preview" n'est pas pris en compte dans le calcul du score de votre code.
 
 ![img](img/directive_ngClass.jpg)
 
