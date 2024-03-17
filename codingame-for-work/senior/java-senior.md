@@ -108,6 +108,7 @@ Déclarer une classe sans niveau d'accès explicite est en général conseillé
 - [ ] Vrai
 - [x] Faux
 
+<br>
 
 ### Question 9: Utilisation des exceptions
 Vous réalisez une bibliothèque en Java. Parmi ces options, laquelle privilégiez-vous pour traiter un comportement inattendu?
@@ -296,10 +297,7 @@ A.a(-3, 4) retourne true
 ```
 class A {
     static boolean a(int i, int j) {
-        if((i == 1 || j == 1 ) || (i + j == 1 )){
-            return true;
-        }
-        return false;
+        return (i + j == 1 || (i == 1 || j == 1));
     }
 }
 ```
